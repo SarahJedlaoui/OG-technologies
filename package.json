@@ -2,17 +2,25 @@
   "name": "open-pro-react",
   "version": "0.1.0",
   "scripts": {
+    "start": "react-scripts start",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/material": "^5.11.13",
     "@tailwindcss/forms": "^0.5.3",
     "aos": "^3.0.0-beta.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",
-    "react-transition-group": "^4.4.5"
+    "react-slick": "^0.29.0",
+    "react-slideshow-image": "^4.2.1",
+    "react-transition-group": "^4.4.5",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^3.1.0",

@@ -14,7 +14,9 @@ import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
-
+import Terms from './pages/Terms';
+import Imprint from './pages/Imprint';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 function App() {
 
   const location = useLocation();
@@ -37,10 +39,13 @@ function App() {
   return (
     <>
       <Routes>
+        <Route exact path="/terms" element={<Terms/>} />
         <Route exact path="/" element={<Home />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/reset-password" element={<ResetPassword />} />
+        <Route exact path="/imprint" element={<Imprint/>} />
+        <Route exact path="/privacyPolicy" element={<PrivacyPolicy/>} />
       </Routes>
     </>
   );

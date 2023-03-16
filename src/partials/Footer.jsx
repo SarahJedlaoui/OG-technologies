@@ -14,7 +14,7 @@ function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
-                <Link to="/" className="inline-block" aria-label="Cruip">
+                <Link to="/" className="inline-block" aria-label="sarah">
                 <div style={{ width: '100px', height: '60px' }}>
                 <img src={logo} alt="Logo" style={{ maxWidth: '100%', maxHeight: '100%' }} />
               </div>

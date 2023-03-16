@@ -48,7 +48,7 @@ function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="Cruip">
+            <Link to="/" className="block" aria-label="sarah">
               <div style={{ width: '100px', height: '60px' }}>
                 <img src={logo} alt="Logo" style={{ maxWidth: '100%', maxHeight: '100%' }} />
               </div>

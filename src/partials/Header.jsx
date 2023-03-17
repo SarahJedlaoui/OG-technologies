@@ -70,10 +70,10 @@ function Header() {
               <Link to="/PrivacyPolicy" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"> Privacy Policy </Link>
               </li>
               <li>
-              <Link to="/" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"> SignIn </Link>
+              <Link to="/signin" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"> SignIn </Link>
               </li>
               <li>
-              <Link to="/" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"> SignUp </Link>
+              <Link to="/signup" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"> SignUp </Link>
               </li>
             </ul>
 

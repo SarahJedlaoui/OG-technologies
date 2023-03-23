@@ -7,7 +7,7 @@ function FeaturesBlocks() {
         <div className="py-12 md:py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20" id="middle-section">
             <h2 className="h2 mb-4">Our mission </h2>
             <p className="text-xl text-gray-400" style={{ textAlign: 'center' }}>Our mission at OG Technologies EU is to
              provide our clients 

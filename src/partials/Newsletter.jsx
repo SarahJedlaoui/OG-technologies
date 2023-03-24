@@ -6,6 +6,7 @@ function Newsletter() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState(null);
   const [submitSuccess, setSubmitSuccess] = useState(false);
+  const [responseMessage, setResponseMessage] = useState("");
 
   const handleFormSubmit = async (event) => {
     event.preventDefault();
@@ -15,11 +16,13 @@ function Newsletter() {
     try {
       const response = await axios.post('http://localhost:3000/api/subscribe', { email });
       console.log(response.data);
-      alert(response.data);
+      setResponseMessage(response.data);
+      alert(responseMessage);
       setSubmitSuccess(true);
     } catch (error) {
       console.error(error);
       setSubmitError('An error occurred, please try again.');
+      alert("An error occurred. Please try again later.");
     } finally {
       setIsSubmitting(false);
     }

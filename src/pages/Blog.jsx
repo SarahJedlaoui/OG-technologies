@@ -6,7 +6,7 @@ import PageIllustration from '../partials/PageIllustration';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import { makeStyles } from '@material-ui/core';
+import { makeStyles } from '@mui/material';
 import bb from '../images/bb.png';
 import MainFeaturedPost from './MainFeaturedPost';
 import FeaturedPost from './FeaturedPost';

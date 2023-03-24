@@ -40,7 +40,7 @@ function HeroHome() {
              OG Technologies
             </h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-            Business type: Einzelunternehmen: Dienstleistungen in der automatischen Datenverarbeitung und Informationstechnik (IT-Services), Wirtschaftskammer Wien.
+            Transforming businesses through Web3/Blockchain innovation.
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">

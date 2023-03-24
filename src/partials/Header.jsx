@@ -73,10 +73,10 @@ function Header() {
               <Link to="/terms" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"> Terms </Link>
               </li>
               <li>
-              <Link to="/PrivacyPolicy" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"> Privacy </Link>
+              <Link to="/Privacy" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"> Privacy </Link>
               </li>
               <li>
-              <Link to="/" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"> Blogs </Link>
+              <Link to="/blog" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"> Blogs </Link>
               </li>
               <li>
               <Link to="/products" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"> Products </Link>
@@ -104,7 +104,7 @@ function Header() {
 
          >
        <MenuItem style={{ color: 'white' }} value={20}>Englich</MenuItem>
-       <MenuItem style={{ color: 'white' }} value={10}>Deutch </MenuItem>
+       <MenuItem style={{ color: 'white' }} value={10}>Deutsch </MenuItem>
        </Select>
     </div>
       </FormControl>
@@ -141,10 +141,10 @@ function Header() {
                   <Link to="/terms" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Termsssssss</Link>
                 </li>
                 <li>
-                  <Link to="/PrivacyPolicy" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Privacy</Link>
+                  <Link to="/Privacy" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Privacy</Link>
                 </li>
                 <li>
-                  <Link to="/" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Blogs</Link>
+                  <Link to="/blog" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Blogs</Link>
                 </li>
                 <li>
                   <Link to="/products" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Products</Link>

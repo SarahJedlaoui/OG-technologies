@@ -11,7 +11,7 @@ import FeatImage03 from '../images/3.png';
 import ai from '../images/ai.jpeg';
 import bloch from '../images/bloch.png';
 import blockchain from '../images/blockchain.png';
-import ecom from '../images/ecom.png';
+import ecom from '../images/ecomm.png';
 import ecommerce from '../images/ecommerce.png';
 import elearn from '../images/eleran.png';
 import travel from '../images/travel.png';
@@ -71,7 +71,7 @@ function Products() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src={ecommerce} width="540" height="405" alt="Features 02" />
+                <img className="max-w-full mx-auto md:max-w-none h-auto" src={ecom} width="540" height="405" alt="Features 02" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">

@@ -15,7 +15,7 @@ function Newsletter() {
     try {
       const response = await axios.post('http://localhost:3000/api/subscribe', { email });
       console.log(response.data);
-      alert('Thanks for subscribing!');
+      alert(response.data);
       setSubmitSuccess(true);
     } catch (error) {
       console.error(error);

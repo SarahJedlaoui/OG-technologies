@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 import './css/style.css';
 
 import AOS from 'aos';
-
+import { useState } from 'react';
 import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
@@ -21,7 +21,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 function App() {
 
   const location = useLocation();
-
+  const [isDarkMode, setIsDarkMode] = useState(false);
   useEffect(() => {
     AOS.init({
       once: true,

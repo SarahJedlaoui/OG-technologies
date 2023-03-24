@@ -13,12 +13,15 @@ import { style } from '@mui/system';
 
 
 function Header() {
-
+  
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
- 
+  const [isDarkMode, setIsDarkMode] = useState(false);
   const trigger = useRef(null);
   const mobileNav = useRef(null);
- 
+
+  const handleDarkModeToggle = () => {
+    setIsDarkMode(!isDarkMode);
+  };
   // close the mobile menu on click outside
   useEffect(() => {
     const clickHandler = ({ target }) => {
@@ -41,7 +44,7 @@ function Header() {
   });
 
   return (
-    <header className="absolute w-full z-30">
+    <header Name={isDarkMode ? 'dark-mode' : ''} className="absolute w-full z-30">
       <div className="max-w-6xl mx-auto px-4 sm:px-2">
         <div className="flex items-center justify-between h-20">
 
@@ -106,9 +109,12 @@ function Header() {
     </div>
       </FormControl>
     </div>
-
+    <button onClick={handleDarkModeToggle}>
+        {isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+      </button>
           </nav>
 
+        
           {/* Mobile menu */}
           <div className="md:hidden">
 
@@ -132,7 +138,7 @@ function Header() {
                   <Link to="/" className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">Sign up</Link>
                 </li>*/}
                 <li>
-                  <Link to="/terms" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Terms</Link>
+                  <Link to="/terms" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Termsssssss</Link>
                 </li>
                 <li>
                   <Link to="/PrivacyPolicy" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Privacy</Link>
@@ -146,9 +152,8 @@ function Header() {
               </ul>
 
 
-
             </nav>
-
+            
           </div>
 
         </div>

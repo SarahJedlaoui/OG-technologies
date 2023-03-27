@@ -12,16 +12,7 @@ import FeaturedPost from './FeaturedPost';
 
 
 
-const mainFeaturedPost = {
-    title: 'EduNode: A decentralized E-learning platform ',
-    description:
-      "Join the increasing number of developers using revolutionary technology to build the best Web3 companies of the future.",
-    image:bb,
-    imgText: 'EduNode',
-    linkText: 'Read more…',
-    link: "EduNode-your-educational-platform-on-the-Stellar-Network"
-  };
-  
+
   const featuredPosts = [
     {
       title: 'How to issue an asset on Stellar',
@@ -164,7 +155,7 @@ function Imprint() {
               <FeaturedPost key={post.title} post={post} />
             ))}
           </Grid>
-          <Grid container spacing={5} marginTop= {theme.spacing(3)}>
+          <Grid container spacing={5} >
             {/* <Main title="" posts={posts} /> */}
             
         

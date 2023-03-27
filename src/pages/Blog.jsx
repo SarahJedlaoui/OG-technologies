@@ -6,9 +6,8 @@ import PageIllustration from '../partials/PageIllustration';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import { makeStyles } from '@mui/material';
 import bb from '../images/bb.png';
-import MainFeaturedPost from './MainFeaturedPost';
+
 import FeaturedPost from './FeaturedPost';
 
 
@@ -129,13 +128,6 @@ function Imprint() {
 
 
     
-      const useStyles = makeStyles((theme) => ({
-        mainGrid: {
-          marginTop: theme.spacing(3),
-        },
-      }));
-      const classes = useStyles();
-
 
 
   return (
@@ -172,7 +164,7 @@ function Imprint() {
               <FeaturedPost key={post.title} post={post} />
             ))}
           </Grid>
-          <Grid container spacing={5} className={classes.mainGrid}>
+          <Grid container spacing={5} marginTop= {theme.spacing(3)}>
             {/* <Main title="" posts={posts} /> */}
             
         

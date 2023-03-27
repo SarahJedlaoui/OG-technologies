@@ -28,7 +28,7 @@ function Footer() {
             <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8">
 
               {/* 2nd block */}
-              <div className="text-sm">
+             {/**  <div className="text-sm">
                 <h6 className="text-gray-200 font-medium mb-1"> <Link to="/products" >Products</Link></h6>
                 <ul>
                   <li className="mb-1">
@@ -44,7 +44,7 @@ function Footer() {
                     <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">AI-powered chatbot</Link>
                   </li>
                 </ul>
-              </div>
+              </div>*/}
 
               {/* 3rd block */}
               
@@ -63,9 +63,11 @@ function Footer() {
                     <Link to="/Privacy" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Privacy Policy</Link>
                   </li>
                   <li className="mb-1">
-                    <Link to="/blog" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Blogs.</Link>
+                    <Link to="/blog" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Blogs</Link>
                   </li>
-                  
+                  <li className="mb-1">
+                    <Link to="/products" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Products</Link>
+                  </li>
                 </ul>
               </div>
 

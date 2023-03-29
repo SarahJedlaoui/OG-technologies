@@ -17,7 +17,7 @@ import ResetPassword from './pages/ResetPassword';
 import Terms from './pages/Terms';
 import Imprint from './pages/Imprint';
 import Products from './pages/Products';
-
+import Job from './pages/Job';
 import Blogs from './pages/Blog';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 function App() {
@@ -51,7 +51,7 @@ function App() {
         <Route exact path="/privacy" element={<PrivacyPolicy/>} />
         <Route exact path="/products" element={<Products/>} />
         <Route exact path="/blog" element={<Blogs/>} />
-
+        <Route exact path="/job" element={<Job/>} />
 
 
 

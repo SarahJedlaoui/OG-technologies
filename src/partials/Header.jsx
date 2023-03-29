@@ -7,7 +7,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import  { Select} from '@mui/material';
-import { style } from '@mui/system';
+
 
 
 
@@ -81,6 +81,9 @@ function Header() {
               <li>
               <Link to="/products" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"> Products </Link>
               </li>
+              <li>
+              <Link to="/job" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"> Join Us </Link>
+              </li>
             </ul>
 
             <div>
@@ -109,9 +112,9 @@ function Header() {
     </div>
       </FormControl>
     </div>
-    <button onClick={handleDarkModeToggle}>
+    {/*<button onClick={handleDarkModeToggle}>
         {isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-      </button>
+      </button>*/}
           </nav>
 
         

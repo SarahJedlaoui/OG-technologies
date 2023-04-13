@@ -53,7 +53,7 @@ class Testimonials extends Component {
                   </div>
 
                 </div>
-              </div>*/}
+              </div>
 
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Our Partners</h2>
@@ -88,7 +88,7 @@ class Testimonials extends Component {
       </div>
 
           </div>
-
+*/}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Our technologies</h2>
            

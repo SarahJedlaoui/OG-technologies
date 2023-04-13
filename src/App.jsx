@@ -51,7 +51,7 @@ function App() {
         <Route exact path="/privacy" element={<PrivacyPolicy/>} />
         <Route exact path="/products" element={<Products/>} />
         <Route exact path="/blog" element={<Blogs/>} />
-        <Route exact path="/job" element={<Job/>} />
+        <Route exact path="/careers" element={<Job/>} />
 
 
 

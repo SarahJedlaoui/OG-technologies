@@ -21,7 +21,7 @@ import FeaturedPost from './FeaturedPost';
         'Here you will learn how to issue an asset on the Stellar Network using the Stellar Laboratory.',
       image: bb,
       imageText: 'Image Text',
-      link: 'https://app.edunode.org/blog/How-to-issue',
+      link: 'https://edunode.org/blog/How-to-issue',
     },
     {
       title: 'What is Keybase?',
@@ -30,7 +30,7 @@ import FeaturedPost from './FeaturedPost';
         'Keybase is the best privacy-focused messaging app with a native integration of the Stellar network.',
       image: bb,
       imageText: 'Keybase',
-      link: 'https://app.edunode.org/blog/What-is-Keybase',
+      link: 'https://edunode.org/blog/What-is-Keybase',
     },
     {
       title: 'Stellarnomics',
@@ -39,7 +39,7 @@ import FeaturedPost from './FeaturedPost';
         'Monetary aspects of the Stellar Consensus Protocol and its steps towards decentralization',
       image: bb,
       imageText: 'Stellarnomics',
-      link: 'https://app.edunode.org/blog/Stellarnomics',
+      link: 'https://edunode.org/blog/Stellarnomics',
     },
     {
       title: 'Kelp: Setup your first trading bot',
@@ -48,7 +48,7 @@ import FeaturedPost from './FeaturedPost';
         'Kelp is a free and open-source trading bot that supports the SDEX and 100+ centralized exchanges',
       image: bb,
       imageText: 'Kelp',
-      link: 'https://app.edunode.org/blog/Stellarnomics',
+      link: 'https://edunode.org/blog/Stellarnomics',
     },
     {
       title: 'Identity verification with Albedo',
@@ -57,7 +57,7 @@ import FeaturedPost from './FeaturedPost';
         'Albedo allows other Stellar apps to request transaction signing or identity verification without ever exposing your secret key.',
       image: bb,
       imageText: 'Albedo',
-      link: 'https://app.edunode.org/blog/albedo',
+      link: 'https://edunode.org/blog/albedo',
     },
     {
       title: 'How to keep your lumens safe.',
@@ -66,7 +66,7 @@ import FeaturedPost from './FeaturedPost';
         'Trying to keep your lumens safe is one of the challenges that cryptocurrencies face right now and the Stellar Ecosystem is not the exception.',
       image: bb,
       imageText: 'Tips and Security tools',
-      link: 'https://app.edunode.org/blog/security-tools',
+      link: 'https://edunode.org/blog/security-tools',
     },
     {
       title: 'What are NFTs and how to mint them using the Stellar Network?',
@@ -75,7 +75,7 @@ import FeaturedPost from './FeaturedPost';
         'Have you ever of NFTs? I would say probably, it is right now all over the internet',
       image: bb,
       imageText: 'NFTs on Stellar',
-      link: 'https://app.edunode.org/blog/minting-nfts',
+      link: 'https://edunode.org/blog/minting-nfts',
     },
     {
       title: 'What are Smart Contracts?',
@@ -84,7 +84,7 @@ import FeaturedPost from './FeaturedPost';
         'In the following blog post, we will talk about them, its early days, and how you can get started building SCs on Stellar.',
       image:bb,
       imageText: 'Smart Contracts',
-      link: 'https://app.edunode.org/blog/smart-contracts',
+      link: 'https://edunode.org/blog/smart-contracts',
     },
     {
       title: 'DeFi Explained: What is an Automated Market Maker?',
@@ -93,7 +93,7 @@ import FeaturedPost from './FeaturedPost';
         'What are AMMs? Why are they useful? And how they are being used in decentralized finance.',
       image: bb,
       imageText: 'DeFi Explained: What is an Automated Market Maker?',
-      link: 'https://app.edunode.org/blog/automated-market-maker',
+      link: 'https://edunode.org/blog/automated-market-maker',
     },
     {
       title: 'Learn about Blockchain',
@@ -102,7 +102,7 @@ import FeaturedPost from './FeaturedPost';
         'Learn about Blockchain, what are the most popular applications, and how you can apply them to make your day-to-day activities easier.',
       image: bb,
       imageText: 'Learn about Blockchain and how to apply it to your day-to-day business life',
-      link: 'https://app.edunode.org/blog/learn-about-blockchain',
+      link: 'https://edunode.org/blog/learn-about-blockchain',
     },
     {
       title: 'The Web3 Revolution And The New Creator Economy',
@@ -111,7 +111,7 @@ import FeaturedPost from './FeaturedPost';
         'Before we can actually understand what Web3.0 means, it is essential to understand what Web1.0 and Web2.0 are.',
       image: bb,
       imageText: 'Learn about Blockchain and how to apply it to your day-to-day business life',
-      link: 'https://app.edunode.org/blog/the-web3-revolution',
+      link: 'https://edunode.org/blog/the-web3-revolution',
     },
     {
       title: 'Learn about Docker',
@@ -120,7 +120,7 @@ import FeaturedPost from './FeaturedPost';
         'Learn about Docker, what are the most popular applications, and how you can apply it in Blockchain.',
       image: bb,
       imageText: 'Learn about Docker, what are the most popular applications, and how you can apply it in Blockchain.',
-      link: 'https://app.edunode.org/blog/Docker',
+      link: 'https://edunode.org/blog/Docker',
     }
   ];
 

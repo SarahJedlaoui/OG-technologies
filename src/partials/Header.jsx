@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Dropdown from '../utils/Dropdown';
 import logo from '../images/OG Technologies_logo.png';
-
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
@@ -87,9 +86,9 @@ function Header() {
             </ul>
 
             <div>
-            <FormControl sx={{ width: '200px' }}>
-            <InputLabel id="demo-simple-select-autowidth-label"  style={{ color: 'white' }}>Language</InputLabel>
-        <div>
+            {/* <FormControl sx={{ width: '200px' }}> */}
+            {/* <InputLabel id="demo-simple-select-autowidth-label"  style={{ color: 'white' }}>Language</InputLabel> */}
+        {/* <div>
         <Select   labelId="demo-simple-select-autowidth-label"
           id="demo-simple-select-autowidth"
           size='large'
@@ -110,7 +109,7 @@ function Header() {
        <MenuItem style={{ color: 'white' }} value={10}>Deutsch </MenuItem>
        </Select>
     </div>
-      </FormControl>
+      </FormControl> */}
     </div>
     {/*<button onClick={handleDarkModeToggle}>
         {isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}

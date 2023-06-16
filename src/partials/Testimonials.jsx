@@ -16,7 +16,13 @@ import Ipfs from '../images/ipfs.jpg';
 import Mongodb from '../images/MongoDB.jpg';
 import Docker from '../images/Docker.jpg';
 import Postg from '../images/postgres.png';
-
+import Bitcoin from '../images/bitcoi.jpg'
+import Vercel from '../images/Vercel.jpg'
+import zaho from '../images/zaho.png'
+import openai from '../images/openai.png'
+import npm from '../images/NPM.png'
+import ethereum from '../images/ETHEREUM.jpg'
+import vite from '../images/vite.png'
 import "~slick-carousel/slick/slick.css"; 
 import "~slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -117,6 +123,27 @@ class Testimonials extends Component {
           </div>
           <div>
             <h3><img src={Postg}   alt="Stellar"/></h3>
+          </div>
+          <div>
+            <h3><img src={Bitcoin}   alt="Bitcoin"/></h3>
+          </div>
+          <div>
+            <h3><img src={Vercel}   alt="Bitcoin"/></h3>
+          </div>
+          <div>
+            <h3><img src={ethereum}   alt="Bitcoin"/></h3>
+          </div>
+          <div>
+            <h3><img src={npm}   alt="Bitcoin"/></h3>
+          </div>
+          <div>
+            <h3><img src={openai}   alt="Bitcoin"/></h3>
+          </div>
+          <div>
+            <h3><img src={zaho}   alt="Bitcoin"/></h3>
+          </div>
+          <div>
+            <h3><img src={vite}   alt="Bitcoin"/></h3>
           </div>
         </Slider>
       </div>

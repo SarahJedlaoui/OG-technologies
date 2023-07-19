@@ -20,6 +20,7 @@ import Products from './pages/Products';
 import Job from './pages/Job';
 import Blogs from './pages/Blog';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import Quote from './pages/Quote';
 function App() {
 
   const location = useLocation();
@@ -52,7 +53,7 @@ function App() {
         <Route exact path="/products" element={<Products/>} />
         <Route exact path="/blog" element={<Blogs/>} />
         <Route exact path="/careers" element={<Job/>} />
-
+        <Route exact path="/quote" element={<Quote/>} />
 
 
       </Routes>

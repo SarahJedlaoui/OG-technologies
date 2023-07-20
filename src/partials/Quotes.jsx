@@ -29,7 +29,7 @@ function Quotes() {
     };
 
    
-    fetch('http://localhost:3000/api/quote/', {
+    fetch('https://og-technologies.herokuapp.com/api/quote/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

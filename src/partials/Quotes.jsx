@@ -32,7 +32,10 @@ function Quotes() {
     fetch('https://og-technologies.herokuapp.com/api/quote/', {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
+      'Content-Type': 'application/json',
+      'Content-Security-Policy': 'script-src',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,OPTIONS'
       },
       body: JSON.stringify(formData),
     })

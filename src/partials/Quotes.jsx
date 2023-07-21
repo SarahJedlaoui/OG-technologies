@@ -37,7 +37,7 @@ function Quotes() {
       
       },
       body: JSON.stringify(formData),
-      mode: 'no-cors' 
+      
     })
       .then((response) => {
         if (response.ok) {
@@ -47,11 +47,11 @@ function Quotes() {
         } else {
           
           console.error('Form submission failed');
-          // You can show an error message to the user or handle the error in any other way.
+         
         }
       })
       .catch((error) => {
-        // Handle any network errors or exceptions during the submission process
+       
         console.error('Error submitting the form', error);
       })
       .finally(() => {
